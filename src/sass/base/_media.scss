@@ -1,6 +1,6 @@
 @media (max-width: 1199px){
     .container{
-        max-width: 880px;
+        max-width: 920px;
     }
 }
 @media (max-width: 991px){
@@ -35,6 +35,40 @@
             img{
                 width: 100%;
             }
+        }
+    }
+    .catalog{
+        &__content{
+            justify-content: space-evenly;
+        }
+    }
+    .feedbacks{
+        &-item{
+            &__img{
+                width: 130px;
+                height: 130px;
+            }
+            &__achiev{
+                margin-top: 0;
+            }
+            &__descr{
+                margin-top: 10px;
+                font-size: 12px;
+            }
+        }
+    }
+    .footer{
+        &__info{
+            width: 370px;
+            height: 210px;
+        }
+        &__addr{
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+        &__phone{
+            font-size: 14px;
+            margin-bottom: 20px;
         }
     }
 }
@@ -84,6 +118,36 @@
         padding: 35px 0;
         &__inner{
             width: 100%;
+        }
+    }
+    .catalog{
+        &__content{
+            flex-direction: column;
+        }
+        &__tab{
+            width: 150px;
+            font-size: 15px;
+        }
+    }
+    .feedbacks{
+        &-item{
+            &__img{
+                width: 90px;
+                height: 90px;
+            }
+            &__wrapper{
+                margin-left: 10px;
+            }
+            &__name{
+                font-size: 15px;
+            }
+            &__achiev{
+                font-size: 10px;
+            }
+            &__descr{
+                margin-top: 3px;
+                font-size: 10px;
+            }
         }
     }
 }
@@ -139,6 +203,31 @@
     }
     .carousel{
         &__inner{
+            width: 100%;
+        }
+    }
+    .catalog{
+        &__tabs{
+            margin-top: 20px;
+            flex-direction: column;
+        }
+        &__tab{
+            margin-bottom: 10px;
+
+        }
+        &__content{
+            margin-top: 35px;
+        }
+    }
+    .feedbacks{
+        &-item{
+            &__descr{
+                line-height: 11px;
+            }
+        }
+    }
+    .footer{
+        &__info{
             width: 100%;
         }
     }
